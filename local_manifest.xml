@@ -2,7 +2,7 @@
 <manifest>
  <!-- Remote -->
  <remote name="anhdat1024" fetch="https://github.com/anhdat1024" />
- <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="Lineage" fetch="https://github.com/LineageOS" />
  <remote name="crDroidAndroid" fetch="https://github.com/crdroidandroid" />
  
  <!-- Device Trees -->
@@ -17,7 +17,7 @@
  <project path="kernel/samsung/sm7325" name="android_kernel_samsung_sm7325" remote="anhdat1024" revision="15.0" />
 
  <!-- Hardware -->
- <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-22.2" />
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="Lineage" revision="lineage-22.2" />
  <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="anhdat1024" revision="lineage-22" />
  <project path="hardware/dolby" name="android_hardware_dolby" remote="crDroidAndroid" revision="15.0" />
 
